@@ -1,0 +1,87 @@
+.table-container {
+    margin: 20px auto;
+    width: 90%;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    border-collapse: collapse;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    text-align: left;
+    padding: 12px 15px;
+}
+
+thead {
+    background-color: #007BFF;
+    color: #ffffff;
+}
+
+tbody tr {
+    border-bottom: 1px solid #dddddd;
+}
+
+tbody tr:nth-of-type(even) {
+    background-color: #f3f3f3;
+}
+
+tbody tr:last-of-type {
+    border-bottom: 2px solid #007BFF;
+}
+
+tbody tr:hover {
+    background-color: #f1f1f1;
+}
+
+button {
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 10px 2px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.details-container {
+    margin: 20px auto;
+    width: 50%;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    padding: 20px;
+    border-radius: 8px;
+    background-color: #ffffff;
+}
+
+.detail-item {
+    margin: 10px 0;
+    padding: 10px;
+    background-color: #f9f9f9;
+    border-left: 5px solid #007BFF;
+}
+
+.detail-item strong {
+    color: #333;
+    font-size: 18px;
+}
+
+.detail-item span {
+    font-size: 16px;
+    display: block;
+    margin-top: 5px;
+    color: #666;
+}
+
+
